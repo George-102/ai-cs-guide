@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://你的用户名.github.io/ai-cs-guide/</loc>
+        <lastmod>2026-05-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://你的用户名.github.io/ai-cs-guide/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://你的用户名.github.io/ai-cs-guide/zh/"/>
+    </url>
+    <url>
+        <loc>https://你的用户名.github.io/ai-cs-guide/python/python-basics/</loc>
+        <lastmod>2026-05-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://你的用户名.github.io/ai-cs-guide/python/python-basics/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://你的用户名.github.io/ai-cs-guide/zh/python/python-basics/"/>
+    </url>
+    <url>
+        <loc>https://你的用户名.github.io/ai-cs-guide/zh/</loc>
+        <lastmod>2026-05-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://你的用户名.github.io/ai-cs-guide/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://你的用户名.github.io/ai-cs-guide/"/>
+    </url>
+    <url>
+        <loc>https://你的用户名.github.io/ai-cs-guide/zh/python/python-basics/</loc>
+        <lastmod>2026-05-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://你的用户名.github.io/ai-cs-guide/zh/python/python-basics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://你的用户名.github.io/ai-cs-guide/python/python-basics/"/>
+    </url>
+</urlset>
