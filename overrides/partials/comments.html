@@ -13,3 +13,29 @@
         crossorigin="anonymous"
         async>
 </script>
+
+<!-- 添加这段脚本，实现主题切换同步 -->
+<script>
+    // 等待页面加载完成
+    document.addEventListener('DOMContentLoaded', function() {
+        // 监听主题切换事件
+        const palette = document.querySelector('[data-md-component="palette"]');
+        if (palette) {
+            palette.addEventListener('change', function() {
+                // 获取当前主题
+                const currentTheme = document.body.getAttribute('data-md-color-scheme');
+                // 转换为 Giscus 的主题名称
+                const giscusTheme = currentTheme === 'slate' ? 'dark' : 'light';
+                
+                // 发送消息给 Giscus iframe 更新主题
+                const frame = document.querySelector('.giscus-frame');
+                if (frame) {
+                    frame.contentWindow.postMessage(
+                        { giscus: { setConfig: { theme: giscusTheme } } },
+                        'https://giscus.app'
+                    );
+                }
+            });
+        }
+    });
+</script>
