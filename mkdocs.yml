@@ -10,6 +10,7 @@ copyright: Copyright &copy; 2026-present <a href="https://github.com/George-102"
 
 theme:
   name: material
+  custom_dir: overrides  
   language: zh
   static_templates:
     - 404.html
@@ -26,6 +27,7 @@ theme:
     - search.share
     - search.suggest
     - content.code.annotate
+    - comments
 
   palette:
     - media: "(prefers-color-scheme: light)"
