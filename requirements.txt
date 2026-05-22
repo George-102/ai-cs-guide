@@ -1,0 +1,6 @@
+mkdocs-material
+mkdocs-minify-plugin
+mkdocs-git-revision-date-plugin
+jinja2
+mkdocs-static-i18n
+mkdocs-open-in-new-tab

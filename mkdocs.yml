@@ -74,6 +74,7 @@ plugins:
             前言: Foreword
             AI基础与大模型: Foundation Models
             提示工程: Prompt Engineering
+            提示工程指南: Prompt Engineering Guide
             AI辅助编程: AI Coding
 
   - search:
@@ -93,8 +94,8 @@ extra:
 nav:
   - 前言: "index.md"
   - AI基础与大模型:
-    - AI基础: "AI基础与大模型/hello.md"
+      - AI基础: "AI基础与大模型/hello.md"
   - 提示工程:
-    - AI基础: "AI基础与大模型/hello.md"
+      - 提示工程指南: "提示工程/Prompt Engineering.md"
   - AI辅助编程:
-    - AI基础: "AI基础与大模型/hello.md"
+      - AI基础: "AI辅助编程/hello.md"
