@@ -13,8 +13,8 @@ theme:
   language: zh
   static_templates:
     - 404.html
-  favicon: images/favicon.ico
-  apple-touch-icon-precomposed: images/mobile_icon.png
+  favicon: images/favicon.svg
+  apple-touch-icon-precomposed: images/favicon.png
   include_search_page: false
   search_index_only: true
 
@@ -30,15 +30,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: light blue
-      accent: deep purple
+      primary: 'deep purple'
+      accent: 'pink'
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: cyan
-      accent: deep purple
+      primary: 'deep green'
+      accent: 'lime'
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -47,7 +47,9 @@ theme:
     text: Roboto Slab
     code: Roboto Mono
   icon:
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/github # 右上角 GitHub 链接按钮的图标
+    previous: material/arrow-left-circle # 自定义“上一页”图标
+    next: material/arrow-right-circle  
 
   # 如果没有 overrides 文件夹，删除下面这行或注释掉
   # custom_dir: overrides
