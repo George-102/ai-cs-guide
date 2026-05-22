@@ -1,10 +1,12 @@
-name: Deploy MkDocs
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # 当推送到 main 分支时触发
+  workflow_dispatch:  # 允许手动触发
 
+# 设置 GITHUB_TOKEN 的权限，允许推送到 gh-pages 分支
 permissions:
   contents: write
 
@@ -12,16 +14,29 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      
-      - uses: actions/setup-python@v4
+      - name: 检出代码
+        uses: actions/checkout@v4
         with:
-          python-version: '3.x'
-      
-      - name: Install dependencies
+          fetch-depth: 0  # 获取完整 Git 历史，用于 git-revision-date 插件
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
         run: |
           pip install mkdocs-material
           pip install mkdocs-static-i18n
-      
-      - name: Deploy
-        run: mkdocs gh-deploy --force
+          pip install mkdocs-git-revision-date-plugin
+          pip install mkdocs-minify-plugin
+          pip install mkdocs-open-in-new-tab
+
+      - name: 构建网站
+        run: mkdocs build --clean
+
+      - name: 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
