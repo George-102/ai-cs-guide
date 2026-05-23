@@ -3,6 +3,7 @@
   ![Image title](./images/title_dark.png#only-dark){ width="750" }
 </figure>
 
+
 # Foreword
 
 This is a self-study guide for computer science in the AI era, as well as a record of my four-year self-study journey in college.
