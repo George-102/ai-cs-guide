@@ -1,83 +1,85 @@
 <figure markdown>
-  ![Image title](./images/title.jpg){ width="600" }
+  ![Image title](./images/title_light.png#only-light){ width="750" }
+  ![Image title](./images/title_dark.png#only-dark){ width="750" }
 </figure>
 
-# 前言
+# Foreword
 
-这是一本AI时代的计算机自学指南，也是对自己大学四年自学生涯的一个记录。
+This is a self-study guide for computer science in the AI era, as well as a record of my four-year self-study journey in college.
 
-这同时也是献给全球计算机技术学生的礼物。如果这本指南能对大家哪怕一丝一毫的帮助，都是对我极大的鼓励和慰藉。
+This is also a gift dedicated to computer technology students worldwide. If this guide can provide even the slightest help to everyone, it will be a great encouragement and comfort to me.
 
-本书目前包含了以下部分（如果你有更好的建议，或者想加入贡献者行列，欢迎邮箱 1578991667@qq.com 或者在issue里提问）：
+The book currently includes the following sections (if you have better suggestions or want to join the contributors,Welcome to email [su2489544776@outlook.com](mailto:su2489544776@outlook.com) or ask questions in [issue](https://github.com/George-102/ai-cs-guide/issues):
 
-- 本书使用指南：由于书内涵盖资源众多，我根据不同人群的空闲时间和学习目标制定了对应的使用指南。
-- 一份供参考的AI-CS 学习规划：我根据自己的自学经历制定的全面的、系统化的 AI时代的CS 自学规划。
-- 必学工具：一些 AI-CSer 效率工具介绍，例如 IDE, 翻墙, StackOverflow, Git, GitHub, Vim, LaTeX, GNU Make, Docker, 工作流 等等。
-- 经典书籍推荐：你是否苦于教材的晦涩难懂不知所云？别从自己身上找原因了，可能只是教材写得太烂。看过 CSAPP 这本书的同学一定会感叹好书的重要，我将列举推荐各个计算机领域的必看好书与资源链接。
-- **国内外高质量 CS 课程汇总**：我将把我上过的以及开源社区贡献的**高质量**的国内外 CS 课程分门别类进行汇总，介绍其课程内容特点并给出相应的自学建议，大部分课程都会有一个独立的仓库维护相关的资源以及作业实现供大家学习参考。
+- Usage Guide for this Book: Given the vast resources covered in this book, I have developed corresponding usage guides based on different groups of people's free time and learning goals.
+- A comprehensive and systematic AI-CS learning plan for reference: I have developed a comprehensive and systematic self-study plan for computer science (CS) in the AI era based on my own experience.
+- Essential Tools: An introduction to some AI-CSer efficiency tools, such as IDEs, VPNs, StackOverflow, Git, GitHub, Vim, LaTeX, GNU Make, Docker, workflows, and more.
+- Classic book recommendation: Are you struggling with the obscurity and confusion of textbooks? Don't look for reasons within yourself, it may just be that the textbooks are poorly written. Those who have read CSAPP will surely appreciate the importance of good books. I will list and recommend must-read books and resource links in various computer science fields.
+- **Compilation of high-quality CS courses at home and abroad**: I will categorize and compile **high-quality** CS courses from both domestic and international sources, including those I have attended and those contributed by the open-source community. I will introduce the characteristics of their course content and provide corresponding self-study suggestions. Most courses will have a separate repository to maintain related resources and assignment implementations for everyone to learn and reference.
 
-## 齿轮开始转动的地方--Buildathon
+## Where the gears start to turn - Buildathon
 
-入学时我是一个对计算机一窍不通的小白，除了玩过电脑游戏，我甚至不会下载正规的软件。但我还是怀着新奇和热情开始了我的计算机科学之路。每天我都会按时去教室，认真听取老师的讲课，做好笔记，然后完成任务。然后，我逐渐发现，每个老师的教学方式不同，速度不同，侧重点不同，热情不同。有的仅仅是照着陈旧的ppt复述，有的仅仅是增加了抽人回答ppt上的问题，真正热情投入教育让学生批判性思考的非常少，我的热情逐渐被消磨掉.....我本以为我的大学会这样平淡，上课、学习、娱乐。没两个月，deepseek横空出世。起初我觉得没什么，只是多了一个能帮助我的非常全能的工具。我仍然想往常一样，按照计算机四大件的顺序啃教材。直到快进入大二，我终于意识到了这个专业的变故。学习仍然重要，但是专业知识已经发生了翻天覆地的变化。从deepseek开始，到后来的agent，再到后来的skills，RAG。一个个新的概念和学科悄然兴起，从传统的人工代码开发到如今的AI辅助编程和Vibe Coding，计算机学科教育发生了翻天覆地的变化。
+When I enrolled, I was a complete novice in computer science. Apart from playing computer games, I couldn't even download proper software. Yet, I embarked on my journey in computer science with curiosity and enthusiasm. Every day, I would punctually attend classes, listen attentively to the teacher's lectures, take notes, and complete assignments. However, I gradually realized that each teacher had a different teaching style, pace, emphasis, and enthusiasm. Some merely recited from outdated PowerPoint presentations, while others merely added the step of randomly selecting students to answer questions on the slides. Very few truly invested their passion in education to encourage students to think critically. My enthusiasm was gradually eroded... I had thought my university life would be uneventful, consisting mainly of classes, studies, and entertainment. Within two months, DeepSeek emerged. Initially, I didn't think much of it, seeing it as just another all-purpose tool that could assist me. I continued to study the textbooks in the usual order of the four major components of computer science. It wasn't until I was about to enter my second year that I finally realized the significant changes in my major. While learning remains important, the professional knowledge has undergone tremendous changes. From DeepSeek, to later agents, skills, and RAG, new concepts and disciplines have quietly emerged. From traditional manual code development to today's AI-assisted programming and Vibe Coding, computer science education has undergone profound changes.
 
-因为这样，我也曾陷入迷茫，我一度怀疑我是不是不适合学计算机，因为童年对于极客的所有想象，已经被我第一个学年的体验彻底粉碎了。我时常问自己，AI既然能做这么多，我究竟应该掌握什么知识？我还需要学习Java、Python吗？我还需要去学习数据结构、计算机网络吗？
+Because of this, I once found myself in a state of confusion. I even doubted if I was cut out for studying computer science. The childhood fantasies I had about being a geek were completely shattered by my experience during my first academic year. I often ask myself, given AI's capabilities, what knowledge should I master? Do I still need to learn Java and Python? Do I still need to study data structures and computer networks?
 
-转机发生在大一结束，我无意了解到吴恩达大佬在首届Buildathon上发表的主题演讲，演讲围绕AI辅助编程、快速开发产品原型，以及AI工程师技能需求，让我真正找到了学习计算机科学的方向。我去YouTube看了吴恩达演讲的全过程，看完的那个瞬间，就像哥伦布发现了新大陆一样，我开启了新世界的大门。
+The turning point came at the end of my freshman year. I stumbled upon a keynote speech given by the renowned Andrew Ng at the inaugural Buildathon, which revolved around AI-assisted programming, rapid development of product prototypes, and the skill requirements for AI engineers. This speech truly guided me towards my direction in studying computer science. I went to YouTube to watch the entire speech of Andrew Ng. The moment I finished watching it, it was like Columbus discovering a new continent - I had opened the door to a new world.
 
-在吴恩达的演讲里，我整理了几个重要思想：
+In Andrew Ng's speech, I summarized several key ideas:
 
-- **“快速行动，承担责任”**。AI辅助编程让独立原型开发实现10倍加速。原型成本大幅降低使快速多次试错成为可行策略，真正价值在于在试错中发现值得深度开发的项目。
+- **"Act swiftly and take responsibility"**. AI-assisted programming accelerates independent prototype development by 10 times. The significant reduction in prototype costs makes rapid and multiple trial-and-error feasible, and the true value lies in discovering projects worthy of in-depth development through trial and error.
 
-- **代码正在贬值，开发者需要转型为系统设计者和AI指挥者**。编程工具已经历多代进化：从GitHub Copilot到IDE，再到高度代理化的程助手。工具迭代速度创造实质性效率差距，落后半代即可能显著影响产出能力。代码价值本身正在降低。AI可自动生成代码、迁移数据库架构，使架构决策变得更可逆。开发者需要从代码编写者转型为系统设计者和AI指挥者，重点把控核心架构与复合型系统构建。
+- **Code is depreciating, and developers need to transition to becoming system designers and AI commanders**. Programming tools have undergone multiple generations of evolution: from GitHub Copilot to IDEs, and then to highly agentized programming assistants. The speed of tool iteration creates substantial efficiency gaps, and being half a generation behind can significantly affect output capabilities. The value of code itself is decreasing. AI can automatically generate code and migrate database architectures, making architectural decisions more reversible. Developers need to transition from code writers to system designers and AI commanders, focusing on controlling core architecture and building composite systems.
 
-- **“AI时代无需学编程”是史上最糟的职业建议**。吴恩达强烈反对“AI时代无需学编程”的观点，指出历史上每次编程工具进步都让更多人群具备编程能力。他团队中的CFO、法律顾问、前台人员均通过学习编程提升工作效率。未来核心技能是“精准告诉计算机该做什么”，这需要理解计算机语言与编程逻辑。非技术人员可通过AI辅助快速掌握基础编程能力，实现跨领域效率提升。
+- "No need to learn programming in the AI era" is the worst career advice ever. Andrew Ng strongly opposes the view that "there is no need to learn programming in the AI era", pointing out that every advancement in programming tools in history has enabled more people to acquire programming skills. The CFO, legal advisor, and front-end personnel in his team have all improved their work efficiency by learning programming. The core skill in the future is to "precisely tell the computer what to do", which requires understanding computer language and programming logic. Non-technical personnel can quickly master basic programming skills through AI assistance, achieving cross-domain efficiency improvement.
 
-- **AI工程师奇缺，大学课程却已严重脱节**。计算机专业毕业生失业率升至7%，可企业却仍面临AI工程师严重短缺。核心矛盾在于大学课程未能及时覆盖关键技能：AI辅助编程、大语言模型调用、RAG/Agentic工作流构建、规范错误分析流程等。新兴AI工程师需掌握三大技能：使用最新AI编程工具、熟悉AI构建模块（提示工程/评估技术/MCP）、具备快速原型能力与基础产品直觉。
+- **AI engineers are in acute shortage, yet university courses have become severely outdated**. The unemployment rate among computer science graduates has risen to 7%, yet enterprises still face a severe shortage of AI engineers. The core contradiction lies in the failure of university courses to promptly cover key skills: AI-assisted programming, large language model invocation, RAG/Agentic workflow construction, and standardized error analysis processes. Emerging AI engineers need to master three major skills: using the latest AI programming tools, familiarizing themselves with AI building blocks (prompt engineering/evaluation techniques/MCP), and possessing rapid prototyping capabilities and basic product intuition.
 
   
 
-后来，我按照吴恩达教授给我们的建议，按照这些方向去自学。我逐渐放弃了大学的课堂，并在此期间我找到了很多优质的网络课程，在这样的课程中，你完全不需要任何顾虑，你只需要努力、认真、花时间就够了。此前在课堂上那种有劲没处使的感觉，那种付出再多时间却得不到回报的感觉，从此烟消云散。这太适合我了，我从此爱上了自学。
+Later, I followed the advice given by Professor Andrew Ng and started self-studying in these directions. I gradually gave up attending university classes, and during this period, I found many high-quality online courses. In such courses, you don't need to worry about anything; all you need to do is work hard, be serious, and spend time. The feeling of being unable to put your energy to use in the classroom, and the feeling of not getting any return despite putting in more time, disappeared completely. This was perfect for me, and I fell in love with self-study from then on.
 
-如果你也在不开心的学习计算机知识，和我有着同样的苦恼，不妨去看看吴恩达教授在[Buildathon上的演讲](https://youtu.be/kjg45_5WhqI?si=lcWv2E-pLhF-5StY)，因为那是我命运的齿轮开始转动的地方。
+If you are also unhappy about learning computer knowledge and share the same troubles as me, you might as well watch Professor Andrew Ng's speech at [Buildathon](https://youtu.be/kjg45_5WhqI?si=lcWv2E-pLhF-5StY), because that's where the gears of my destiny began to turn.
 
-## 为什么写这本指南
+## Why was this guide written
 
-在我大二秋季学期学习计算机操作系统的时候，我发现老师讲这门课讲的极其枯燥，而且很多是十年前的例子，实验课的指南更是13年前的。在后来和身边朋友的交谈中，我也能感受到大家对于AI快速发展的担忧和对未来工作就业焦虑。那时候，我已经自学一年多了，自己也整理了很多资源，我将其分享给了我的朋友们，毕竟，谁不希望能快乐的度过大学时光，还能找到一份好工作或者考上研究生呢？
+During my sophomore fall semester when I was studying computer operating systems, I found the lectures extremely boring, and many of the examples used were from ten years ago. The lab manuals were even from 13 years ago. Later, in conversations with friends, I could sense their concerns about the rapid development of AI and anxiety about future job prospects. At that time, I had been self-studying for over a year and had compiled a lot of resources, which I shared with my friends. After all, who doesn't want to enjoy their university years while also securing a good job or getting admitted to graduate school?
 
-但随着又一年时间的积累，资源的内容已经相当丰富，基本覆盖了计科、智能系、软工系的绝大多数课程，我也为每个课程都建了各自的 GitHub 仓库，汇总我用到的自学资料以及作业实现。直到后来计算学分时，我打开自己的培养方案，我发现它已经是我这个自学仓库的子集了，而这距离我开始自学也才两年而已。于是，一个大胆的想法在我脑海中浮现：也许，我可以打造一个自学式的培养方案，把我这三年自学经历中遇到的坑、走过的路记录下来，同时结合自己对于AI时代的思考，以期能为后来的CSers贡献自己的一份微薄之力。
+But with another year of accumulation, the content of the resources has become quite rich, covering most courses in computer science, artificial intelligence, and software engineering. I have also created individual GitHub repositories for each course, compiling the self-study materials and homework implementations I have used. When calculating my credits later, I opened my training program and realized that it was already a subset of my self-study repository, and this was only two years after I started self-studying. Therefore, a bold idea emerged in my mind: perhaps I could create a self-study training program, recording the pitfalls and paths I encountered during my three years of self-study, and combining my own thoughts on the AI era, in the hope of contributing my humble efforts to future CSers.
 
-## 自学还是？
+## Self-study or?
 
-自学最大的好处就在于可以完全根据自己的进度来调整学习速度。你可以随时改变自己的学习计划。按照自己的进度，而不是局限在培养方案和课堂。
+The greatest advantage of self-study lies in the ability to adjust the learning pace entirely according to one's own schedule. You can alter your study plan at any time. Follow your own progress, rather than being confined to the training program and classroom.
 
-自学的另一个好处是博采众长。我第一次在笔记本装双系统时就犯了错，将我的windows给抹除了，唯一庆幸的是我没有什么贵重的资料，后来又了解到现代固态硬盘不会彻底消除数据，也就是说数据可能还没有被完全覆盖，只要我的新系统没有占有原有的磁盘的那部分空间，我就有可能恢复未被占用空间的数据。也正是这些试错让我能不断学习到各种平时接触不到的知识。
+Another benefit of self-study is learning from others' strengths. The first time I installed a dual operating system on my laptop, I made a mistake and erased my Windows. Fortunately, I didn't have any valuable data. Later, I learned that modern solid-state drives (SSDs) don't completely erase data. This means that the data might not be completely overwritten. As long as my new system doesn't occupy the original disk space, I might be able to recover the data in the unused space. It's precisely these trial and error experiences that allow me to continuously learn various knowledge that I wouldn't ordinarily encounter.
 
-自学的第三个好处是时间自由，大学本就相对自由，自学更是可以安排自己学习的时间和计划。只要时间安排得当，你仍然能一边自学，一边取得一个好成绩。
+The third advantage of self-study is the freedom of time. University life is inherently relatively free, and self-study allows one to arrange their own study time and plans. As long as the time is properly arranged, you can still achieve good grades while pursuing self-study.
 
-自学有什么坏处吗？当然，凡事有利必有弊。
+Is there any downside to self-study? Of course, every coin has two sides.
 
-自学第一个坏处就是不便沟通，你遇到的问题，未必就有人遇到，并且未必就有人感兴趣。然后，善于借助google，stackoverflow和AI等平台提问，我相信可以解决你90%的问题。第二个坏处是很多优质的课程和资源是英文的，但是我相信这已经不是一个很难解决的问题了，如今翻译软件和插件几乎已经完美解决了这个问题。第三个，也是最难的一个问题就是自律，对于自学而言，没有DDL真是一件可怕的事，随着学习内容的深入，学习难度也会上升，坚持学完整个课程是相当虐的。你得有足够的驱动力强迫自己静下心来，理解上千行的代码框架，忍受数个小时的 debug 时光。而这一切，没有学分，没有绩点，没有老师，没有同学，只有一个信念 —— 你在变强。
+The first disadvantage of self-study is the inconvenience of communication. The problems you encounter may not necessarily be encountered by others, nor may they interest others. However, by being adept at asking questions on platforms such as Google, Stack Overflow, and AI, I believe you can solve 90% of your problems. The second disadvantage is that many high-quality courses and resources are in English, but I believe this is no longer a difficult problem to solve. Nowadays, translation software and plugins have almost perfectly solved this problem. The third and most difficult issue is self-discipline. For self-study, not having a deadline (DDL) is truly terrifying. As the learning content deepens, the difficulty of learning also increases, and it can be quite torturous to persist through the entire course. You have to have enough motivation to force yourself to settle down, understand thousands of lines of code frameworks, and endure hours of debugging. And all of this without credits, grades, teachers, or classmates, with only one belief - you are getting stronger.
 
-## 这本书为谁而写
+## Who is this book written for? Who is this book written for
 
-正如我在前言里说的，任何有志于在AI时代学好用好计算机知识的朋友都可以参考这本书。如果你已经有了一定的计算机基础，只是对某个特定的领域感兴趣，可以选择性地挑选你感兴趣的内容进行学习。当然，如果你是一个像我当年一样对计算机一无所知的小白，初入大学的校门，我希望这本书能成为你的攻略，让你花最少的时间掌握你所需要的知识和能力。某种程度上，这本书更像是一个根据我的体验来排序的课程搜索引擎，帮助大家足不出户，体验计算机优质课程。
+As I mentioned in the preface, anyone aspiring to learn and master computer knowledge in the AI era can refer to this book. If you already have a certain foundation in computer science and are merely interested in a specific field, you can selectively choose the content you are interested in for learning. Of course, if you are a novice who knows nothing about computers, just like I was when I first entered university, I hope this book can serve as your guide, allowing you to acquire the necessary knowledge and skills in the least amount of time. To some extent, this book is more like a course search engine sorted according to my experience, helping everyone experience high-quality computer courses without leaving home.
 
-## 特别鸣谢
+## Special Thanks
 
-在这里，我怀着崇敬之心真诚地感谢所有将课程资源无偿开源的各位教授和开发者们。这些课程和资源倾注了他们数十年教学生涯的积淀和心血，他们却选择无私地让所有人享受到如此高质量的 CS 教育。没有他们，我的大学生活不会这样充实而快乐。很多教授在我给他们发了感谢邮件之后，甚至会回复上百字的长文，真的让我无比感动。他们也时刻激励着我，做一件事，就得用心做好，无论是学习、科研、还是为人。
+Here, with a heart filled with reverence, I sincerely thank all the professors and developers who have made their course resources freely available. These courses and resources embody the accumulation and dedication of their decades-long teaching careers, yet they have chosen to selflessly share such high-quality CS education with everyone. Without them, my university life would not have been so fulfilling and joyful. Many professors, after receiving my thank-you emails, would even respond with hundreds of words, which truly touched me. They also constantly inspire me to do things well, whether it's learning, research, or being a person.
 
-## 你也想加入到贡献者的行列
+## You also want to join the ranks of contributors
 
-一个人的力量终究是有限的，这本书也是我在繁重的科研之余熬夜抽空写出来的，难免有不够完善之处。另外，由于个人做的是计算机应用方向，很多课程侧重计算机应用实践，对于数学、理论计算机、高级算法相关的内容则相对少些。如果有大佬想在其他领域分享自己的自学经历与资源，可以直接在项目中发起 Pull Request，也欢迎和我邮件联系（[1578991667@qq.com](mailto:1578991667@qq.com)）。
+One's strength is ultimately limited. This book was written by me in my spare time after staying up late amidst heavy scientific research, so it is inevitable that there may be imperfections. Additionally, as I specialize in computer applications, many courses emphasize practical computer applications, with relatively less emphasis on mathematics, theoretical computer science, and advanced algorithms. If any experts wish to share their self-study experiences and resources in other fields, they can directly initiate a Pull Request in the project. They are also welcome to contact me via email ([su2489544776@outlook.com](mailto:su2489544776@outlook.com)).
 
-## 关于交流群的建立
+## Regarding the establishment of the communication group
 
-本书支持页面评论功能，因此如果你想自学某课程，可以自己建立群聊后（QQ 微信皆可）在对应的课程页面下方发表评论，注明你的学习目标以及加入交流群的途径。此外，过去已有不少朋友在 issue 里建立了类似群聊，可以自行选择直接加入。
+This book supports page commenting functionality. Therefore, if you want to self-study a certain course, you can create a group chat (either on QQ or WeChat) and post a comment below the corresponding course page, specifying your learning goals and the way to join the communication group. In addition, many friends have already established similar group chats in the issue, and you can choose to join them directly.
 
-## 请作者喝杯下午茶
+## Want to treat the author to a cup of afternoon tea
 
-本书的内容是完全开源免费的，如果你觉得该项目对你真的有帮助，可以给仓库点个 star 或者请作者喝一杯下午茶。
+The content of this book is completely open-source and free of charge. If you find this project genuinely helpful to you, you can give the repository a star or treat the author to a cup of afternoon tea.
 
 <figure markdown>
   ![Image title](./images/sponsor.jpg){ width="500" }
 </figure>
+
