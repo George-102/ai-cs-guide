@@ -1,3 +1,9 @@
+<script>
+    // 先定义网站主题
+    const siteTheme = document.body.getAttribute('data-md-color-scheme');
+    const giscusTheme = siteTheme === 'slate' ? 'dark' : 'light';
+</script>
+
 <script src="https://giscus.app/client.js"
         data-repo="George-102/ai-cs-guide"
         data-repo-id="R_kgDOSkF09w"
@@ -8,29 +14,17 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="light"
         data-lang="zh-CN"
         crossorigin="anonymous"
         async>
 </script>
 
 <script>
-    // 获取网站当前实际主题的函数
-    function getCurrentSiteTheme() {
-        return document.body.getAttribute('data-md-color-scheme');
-    }
-
-    // 将网站主题转换为 Giscus 主题
-    function getGiscusTheme(siteTheme) {
-        return siteTheme === 'slate' ? 'dark' : 'light';
-    }
-
-    // 初始化或更新 Giscus 主题
-    function setGiscusTheme() {
-        const siteTheme = getCurrentSiteTheme();
-        if (!siteTheme) return;
-        
-        const giscusTheme = getGiscusTheme(siteTheme);
+    // 覆盖 Giscus 默认主题
+    function overrideGiscusTheme() {
+        const siteTheme = document.body.getAttribute('data-md-color-scheme');
+        const giscusTheme = siteTheme === 'slate' ? 'dark' : 'light';
         const frame = document.querySelector('.giscus-frame');
         if (frame) {
             frame.contentWindow.postMessage(
@@ -39,31 +33,15 @@
             );
         }
     }
-
-    // 等待 Giscus 加载完成后应用正确的主题
-    function waitForGiscus() {
-        const observer = new MutationObserver(function(mutations, obs) {
-            const frame = document.querySelector('.giscus-frame');
-            if (frame) {
-                // 找到 Giscus iframe，应用当前网站主题
-                setGiscusTheme();
-                obs.disconnect(); // 停止观察
-            }
-        });
-        
-        observer.observe(document.body, { childList: true, subtree: true });
-    }
-
-    // 页面加载时开始等待 Giscus
-    document.addEventListener('DOMContentLoaded', function() {
-        waitForGiscus();
-        
-        // 监听主题切换按钮
-        const palette = document.querySelector('[data-md-component="palette"]');
-        if (palette) {
-            palette.addEventListener('change', function() {
-                setGiscusTheme();
-            });
+    
+    // 监听 Giscus 加载和主题切换
+    const observer = new MutationObserver(function(mutations, obs) {
+        if (document.querySelector('.giscus-frame')) {
+            overrideGiscusTheme();
+            obs.disconnect();
         }
     });
+    observer.observe(document.body, { childList: true, subtree: true });
+    
+    document.querySelector('[data-md-component="palette"]')?.addEventListener('change', overrideGiscusTheme);
 </script>
