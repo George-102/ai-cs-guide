@@ -14,27 +14,55 @@
         async>
 </script>
 
-<!-- 添加这段脚本，实现主题切换同步 -->
 <script>
-    // 等待页面加载完成
+    // 获取网站当前实际主题的函数
+    function getCurrentSiteTheme() {
+        return document.body.getAttribute('data-md-color-scheme');
+    }
+
+    // 将网站主题转换为 Giscus 主题
+    function getGiscusTheme(siteTheme) {
+        return siteTheme === 'slate' ? 'dark' : 'light';
+    }
+
+    // 初始化或更新 Giscus 主题
+    function setGiscusTheme() {
+        const siteTheme = getCurrentSiteTheme();
+        if (!siteTheme) return;
+        
+        const giscusTheme = getGiscusTheme(siteTheme);
+        const frame = document.querySelector('.giscus-frame');
+        if (frame) {
+            frame.contentWindow.postMessage(
+                { giscus: { setConfig: { theme: giscusTheme } } },
+                'https://giscus.app'
+            );
+        }
+    }
+
+    // 等待 Giscus 加载完成后应用正确的主题
+    function waitForGiscus() {
+        const observer = new MutationObserver(function(mutations, obs) {
+            const frame = document.querySelector('.giscus-frame');
+            if (frame) {
+                // 找到 Giscus iframe，应用当前网站主题
+                setGiscusTheme();
+                obs.disconnect(); // 停止观察
+            }
+        });
+        
+        observer.observe(document.body, { childList: true, subtree: true });
+    }
+
+    // 页面加载时开始等待 Giscus
     document.addEventListener('DOMContentLoaded', function() {
-        // 监听主题切换事件
+        waitForGiscus();
+        
+        // 监听主题切换按钮
         const palette = document.querySelector('[data-md-component="palette"]');
         if (palette) {
             palette.addEventListener('change', function() {
-                // 获取当前主题
-                const currentTheme = document.body.getAttribute('data-md-color-scheme');
-                // 转换为 Giscus 的主题名称
-                const giscusTheme = currentTheme === 'slate' ? 'dark' : 'light';
-                
-                // 发送消息给 Giscus iframe 更新主题
-                const frame = document.querySelector('.giscus-frame');
-                if (frame) {
-                    frame.contentWindow.postMessage(
-                        { giscus: { setConfig: { theme: giscusTheme } } },
-                        'https://giscus.app'
-                    );
-                }
+                setGiscusTheme();
             });
         }
     });
