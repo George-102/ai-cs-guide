@@ -74,10 +74,13 @@ plugins:
           site_name: AI-CS Learning Guide
           nav_translations:
             前言: Foreword
+            如何使用这本指南: How to Use This Guide
+            工具和方法: Tools and Methods
             AI基础与大模型: Foundation Models
             提示工程: Prompt Engineering
             提示工程指南: Prompt Engineering Guide
             AI辅助编程: AI Coding
+
 
   - search:
       lang:
@@ -95,9 +98,14 @@ extra:
 
 nav:
   - 前言: "index.md"
+  - 如何使用这本指南: "使用指南.md"
+  - 工具和方法: 
+      - 资源检索: "资源检索.md"
+  - Python:
+      - Python官方教程: "Python/Python官方文档.md"
   - AI基础与大模型:
       - AI基础: "AI基础与大模型/hello.md"
   - 提示工程:
       - 提示工程指南: "提示工程/Prompt Engineering.md"
   - AI辅助编程:
-      - AI基础: "AI辅助编程/hello.md"
+      - AI基础: "AI辅助编程/AI辅助编程导论.md"
