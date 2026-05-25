@@ -40,11 +40,11 @@ On Windows systems, you can use [Powertoys](https://learn.microsoft.com/en-us/wi
 The macOS system provides a [setting](https://vim.fandom.com/wiki/Map_caps_lock_to_escape_in_macOS) for remapping key mappings, and you can also use [Karabiner-Elements](https://karabiner-elements.pqrs.org/) for remapping.   
 Linux systems can utilize [xremap](https://github.com/xremap/xremap) for mapping, which is compatible with both Wayland and X.Org, and supports separate mapping for single-tap and long-press actions.
 
-- But a better approach is to map CapsLock to both Ctrl and Esc simultaneously, where tapping it corresponds to Esc and holding it down corresponds to Ctrl. Here are the implementation methods for different systems:
+But a better approach is to map CapsLock to both Ctrl and Esc simultaneously, where tapping it corresponds to Esc and holding it down corresponds to Ctrl. Here are the implementation methods for different systems:
 
-  - [Windows](https://gist.github.com/sedm0784/4443120)  
-  - [MacOS](https://ke-complex-modifications.pqrs.org/#caps_lock_tapped_escape_held_left_control)  
-  - [Linux](https://www.jianshu.com/p/6fdc0e0fb266)
+- [Windows](https://gist.github.com/sedm0784/4443120)  
+- [MacOS](https://ke-complex-modifications.pqrs.org/#caps_lock_tapped_escape_held_left_control)  
+- [Linux](https://www.jianshu.com/p/6fdc0e0fb266)
 
 ## Other resources
 
