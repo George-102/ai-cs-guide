@@ -4,21 +4,21 @@
 
 In my opinion, the Vim editor has the following benefits:
 
-1. **Operate entirely through the keyboard, minimizing the need to take your hands off the main key area**
+- **Operate entirely through the keyboard, minimizing the need to take your hands off the main key area**
 
-   Without the need for a mouse or touchpad, cursor movement, selection, editing, and other operations can all be completed using the main keys on the keyboard. This significantly reduces the time loss caused by hand movement, and over the long term, it can notably enhance editing fluency and focus.
+Without the need for a mouse or touchpad, cursor movement, selection, editing, and other operations can all be completed using the main keys on the keyboard. This significantly reduces the time loss caused by hand movement, and over the long term, it can notably enhance editing fluency and focus.
 
-2. **Combined editing language, enhancing operational expression**
+- **Combined editing language, enhancing operational expression**
 
-   Vim's operations are like a language: `d` (delete), `i` (insert), `w` (word), `$` (end of line), etc., which can be combined, such as `ci"` (modify the content within quotation marks) and `daw` (delete a word). You are no longer just "pressing shortcut keys", but "speaking editing commands", with clear logic and strong reusability.
+Vim's operations are like a language: `d` (delete), `i` (insert), `w` (word), `$` (end of line), etc., which can be combined, such as `ci"` (modify the content within quotation marks) and `daw` (delete a word). You are no longer just "pressing shortcut keys", but "speaking editing commands", with clear logic and strong reusability.
 
-3. **Almost all development environments support Vim mode**
+- **Almost all development environments support Vim mode**
 
-   VSCode, IntelliJ, Sublime, Chrome (Vimium), Terminal, remote servers, and other mainstream tools all have Vim keystroke plugins or native support. Once you learn, you can use it everywhere, without having to switch mental models between different IDEs.
+VSCode, IntelliJ, Sublime, Chrome (Vimium), Terminal, remote servers, and other mainstream tools all have Vim keystroke plugins or native support. Once you learn, you can use it everywhere, without having to switch mental models between different IDEs.
 
-4. **Efficiently handle structured code**
+- **Efficiently handle structured code**
 
-   With features such as `.` (repeat last change), macro recording (`q`), multi-file operations (`:bn`), tag navigation (`Ctrl-]`), and global substitution (`:s`), Vim is highly efficient in refactoring, batch modification, and cross-file navigation. Especially in a server environment without a graphical interface via SSH, Vim is almost the only reliable and fast editing solution.
+With features such as `.` (repeat last change), macro recording (`q`), multi-file operations (`:bn`), tag navigation (`Ctrl-]`), and global substitution (`:s`), Vim is highly efficient in refactoring, batch modification, and cross-file navigation. Especially in a server environment without a graphical interface via SSH, Vim is almost the only reliable and fast editing solution.
 
 ## How to learn Vim
 
