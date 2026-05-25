@@ -80,6 +80,9 @@ plugins:
             提示工程: Prompt Engineering
             提示工程指南: Prompt Engineering Guide
             AI辅助编程: AI Coding
+            Python官方教程: Python official documentation
+            科学上网: GFW
+
 
 
   - search:
@@ -99,6 +102,9 @@ extra:
 nav:
   - 前言: "index.md"
   - 工具和方法: 
+      - Scoop: "工具和方法/scoop.md"
+      - 科学上网: "工具和方法/魔法.md"
+      - Vim: "工具和方法/Vim.md"
   - Python:
       - Python官方教程: "Python/Python官方文档.md"
   - 提示工程:
