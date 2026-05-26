@@ -1,19 +1,19 @@
 # Scoop
 
-## Why use Scoop
+## 为什么使用 Scoop
 
-Setting up a development environment on Windows has always been a complex and challenging task. The absence of a unified standard has led to significant differences in the installation methods of various development environments, resulting in unnecessary time costs. Scoop, however, can assist you in uniformly installing and managing common development software, eliminating tedious steps such as manual downloads, installations, and configuration of environment variables.
+在 Windows 下，搭建开发环境一直是一个复杂且困难的问题。由于没有一个统一的标准，导致各种开发环境的安装方式差异巨大，需要付出很多不必要的时间成本。而 Scoop 可以帮助你统一安装并管理常见的开发软件，省去了手动下载安装，配置环境变量等繁琐步骤。
 
-Scoop will automatically configure the downloaded software into the environment variables, eliminating the hassle of manually configuring the development environment for software on Windows.
+Scoop会自动将下载的软件统一配置到环境变量，省去了Windows手动给软件配置开发环境的麻烦。
 
-For example, to install Python and Node.js, you only need to execute:
+例如安装 python 和 nodejs 只需要执行：
 
 ```powershell
 scoop install python
 scoop install nodejs
 ```
 
-You can even use scoop to download many desktop software, such as QQ Music, Bilibili, WeChat, etc
+你甚至可以用scoop下载很多桌面软件，例如qq音乐，哔哩哔哩，微信等：
 
 ```
 scoop install qqmusic
@@ -21,21 +21,21 @@ scoop install bilibili
 scoop install wechat
 ```
 
-## Install Scoop
+## 安装 Scoop
 
-Scoop requires [Windows PowerShell 5.1](https://aka.ms/wmf5download) or [PowerShell](https://aka.ms/powershell) as its runtime environment. If you are using Windows 10 or later versions, Windows PowerShell is built-in to the system. However, the version of Windows PowerShell built-in to Windows 7 is outdated, and you will need to manually install a newer version of PowerShell.
+Scoop 需要 [Windows PowerShell 5.1](https://aka.ms/wmf5download) 或者 [PowerShell](https://aka.ms/powershell) 作为运行环境，如果你使用的是 Windows 10 及以上版本，Windows PowerShell 是内置在系统中的。而 Windows 7 内置的 Windows PowerShell 版本过于陈旧，你需要手动安装新版本的 PowerShell。
 
-> Installing software in the user directory using Scoop's default method may cause execution errors for some software. Therefore, it is recommended to install it in a custom directory. For official installation instructions, please refer to [Scoop](https://scoop.sh/)
+> 由于发现很多同学在设置 Windows 用户时使用了中文用户名，导致了用户目录也变成了中文名。如果按照 Scoop 的默认方式将软件安装到用户目录下，可能会造成部分软件执行错误。所以这里推荐安装到自定义目录。官方安装教程请参考[Scoop](https://scoop.sh/)
 
 ```powershell
-# Set PowerShell execution policy
+# 设置 PowerShell 执行策略
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-# Download and install script
+# 下载安装脚本
 irm get.scoop.sh -outfile 'install.ps1'
-# Execute the installation, with the --ScoopDir parameter specifying the Scoop installation path
+# 执行安装, --ScoopDir 参数指定 Scoop 安装路径
 .\install.ps1 -ScoopDir 'C:\Scoop'
 ```
 
-## Use Scoop
+## 使用 Scoop
 
-The official documentation for Scoop is highly user-friendly for beginners. Rather than belaboring the points here, I recommend reading the [official repository documentation](https://github.com/ScoopInstaller/scoop) or visiting the [quick start guide](https://scoop.sh/).
+Scoop 的官方文档对于新手非常友好，相对于在此处赘述更推荐阅读 [官方仓库文档](https://github.com/ScoopInstaller/scoop) 或 [快速入门](https://scoop.sh/) 。
