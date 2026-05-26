@@ -82,6 +82,16 @@ plugins:
             AI辅助编程: AI Coding
             Python官方教程: Python official documentation
             科学上网: GFW
+            Git: Git
+            Docker: Docker
+            LaTeX: LaTeX
+            GNU Make: GNU Make
+            VS Code: VS Code
+            WSL: WSL
+            Oh My Zsh: Oh My Zsh
+            Stack Overflow: Stack Overflow
+            Obsidian: Obsidian
+            工作流: Workflow
 
 
 
@@ -101,10 +111,20 @@ extra:
 
 nav:
   - 前言: "index.md"
-  - 工具和方法: 
+  - 工具和方法:
       - Scoop: "工具和方法/scoop.md"
       - 科学上网: "工具和方法/魔法.md"
+      - Git: "工具和方法/Git.md"
+      - Docker: "工具和方法/Docker.md"
+      - LaTeX: "工具和方法/LaTeX.md"
+      - GNU Make: "工具和方法/Make.md"
+      - VS Code: "工具和方法/VSCode.md"
+      - WSL: "工具和方法/WSL.md"
       - Vim: "工具和方法/Vim.md"
+      - Oh My Zsh: "工具和方法/Zsh.md"
+      - Stack Overflow: "工具和方法/StackOverflow.md"
+      - Obsidian: "工具和方法/Obsidian.md"
+      - 工作流: "工具和方法/工作流.md"
   - Python:
       - Python官方教程: "Python/Python官方文档.md"
   - 提示工程:
