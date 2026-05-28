@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:csdiy.wiki)",
+      "Bash(rtk ls *)",
+      "WebSearch"
+    ]
+  }
+}
