@@ -91,6 +91,7 @@ plugins:
             Oh My Zsh: Oh My Zsh
             Stack Overflow: Stack Overflow
             Obsidian: Obsidian
+            Python项目管理: Python Project Management
             工作流: Workflow
 
 
@@ -124,6 +125,7 @@ nav:
       - Oh My Zsh: "工具和方法/Zsh.md"
       - Stack Overflow: "工具和方法/StackOverflow.md"
       - Obsidian: "工具和方法/Obsidian.md"
+      - Python项目管理: "工具和方法/Python项目管理.md"
       - 工作流: "工具和方法/工作流.md"
   - Python:
       - Python官方教程: "Python/Python官方文档.md"
