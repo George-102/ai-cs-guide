@@ -32,7 +32,7 @@ This is not a rigid curriculum to follow strictly, but a learning roadmap tailor
 | Data structures & algorithms | [UC Berkeley CS61B](https://sp21.datastructur.es/) |
 | Calculus II | [MIT 18.02](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) |
 | Probability & statistics | MIT 6.041 |
-| Git & GitHub | [Git section](../工具和方法/Git.md) + [GitHub Tutorial](https://docs.github.com/en) |
+| Git & GitHub | [Git section](工具和方法/Git.md) + [GitHub Tutorial](https://docs.github.com/en) |
 
 **Practice**: Complete all CS61B labs and projects. Start using Git to manage your code repositories.
 
@@ -52,7 +52,7 @@ This is not a rigid curriculum to follow strictly, but a learning roadmap tailor
 | Computer architecture | [UC Berkeley CS61C](https://cs61c.org/) |
 | Operating systems | [MIT 6.S081](https://pdos.csail.mit.edu/6.828/2023/) |
 | Introduction to ML | [Andrew Ng Machine Learning](https://www.coursera.org/learn/machine-learning) |
-| AI-assisted programming | [AI Coding section](../AI辅助编程/AI辅助编程导论.md) |
+| AI-assisted programming | [AI Coding section](AI辅助编程/AI辅助编程导论.md) |
 
 **Practice**: Complete CS61C RISC-V labs and MIT 6.S081 xv6 labs. Start using Claude Code or Cursor in real projects.
 
@@ -63,7 +63,7 @@ This is not a rigid curriculum to follow strictly, but a learning roadmap tailor
 | Computer networks | [Stanford CS144](https://cs144.github.io/) |
 | Database systems | [CMU 15-445](https://15445.courses.cs.cmu.edu/) |
 | Deep learning | [Andrew Ng Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) |
-| Prompt engineering | [Prompt Engineering section](../提示工程/Prompt Engineering.md) |
+| Prompt engineering | [Prompt Engineering section](提示工程/Prompt Engineering.md) |
 
 **Practice**: Implement a B+ tree index for a simple database; complete an image classification project with PyTorch.
 
@@ -82,8 +82,8 @@ This is not a rigid curriculum to follow strictly, but a learning roadmap tailor
 |-------|----------------------|
 | Distributed systems | [MIT 6.824](https://pdos.csail.mit.edu/6.824/) |
 | Reinforcement learning | [David Silver RL Course](https://www.davidsilver.uk/teaching/) |
-| RAG systems | [RAG section](../RAG与知识库/RAG系统构建实战.md) |
-| Agent development | [Agent section](../AI Agent与工作流/Agent开发实战.md) |
+| RAG systems | [RAG section](RAG与知识库/RAG系统构建实战.md) |
+| Agent development | [Agent section](AI Agent与工作流/Agent开发实战.md) |
 
 **Practice**: Complete a full AI project (RAG knowledge base, multi-agent system). Start preparing for entrance exams if applicable.
 
@@ -91,8 +91,8 @@ This is not a rigid curriculum to follow strictly, but a learning roadmap tailor
 
 | Topic | Recommended Resources |
 |-------|----------------------|
-| LLM application engineering | [AI Engineering section](../AI工程化与部署/LLM应用开发工程化.md) |
-| AI safety | [AI Safety section](../AI安全与对齐/AI安全与对齐.md) |
+| LLM application engineering | [AI Engineering section](AI工程化与部署/LLM应用开发工程化.md) |
+| AI safety | [AI Safety section](AI安全与对齐/AI安全与对齐.md) |
 | Compilers (elective) | [Stanford CS143](https://web.stanford.edu/class/cs143/) or [Crafting Interpreters](https://craftinginterpreters.com/) |
 
 **Practice**: Build a portfolio (GitHub repos + project demos). Entrance exam prep at full intensity. Job seekers start Leetcode grinding and interview prep.

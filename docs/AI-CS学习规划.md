@@ -32,7 +32,7 @@
 | 数据结构与算法 | [UC Berkeley CS61B](https://sp21.datastructur.es/) |
 | 微积分（下）| [MIT 18.02](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) |
 | 概率论与数理统计 | MIT 6.041 |
-| Git 和 GitHub | [Git 章节](../工具和方法/Git.md) + [GitHub 官方教程](https://docs.github.com/zh) |
+| Git 和 GitHub | [Git 章节](工具和方法/Git.md) + [GitHub 官方教程](https://docs.github.com/zh) |
 
 **实践建议**：完成 CS61B 的所有实验和项目。开始用 Git 管理自己的代码仓库。
 
@@ -52,7 +52,7 @@
 | 计算机体系结构 | [UC Berkeley CS61C](https://cs61c.org/) |
 | 操作系统 | [MIT 6.S081](https://pdos.csail.mit.edu/6.828/2023/) |
 | 机器学习入门 | [吴恩达 Machine Learning](https://www.coursera.org/learn/machine-learning) |
-| AI 辅助编程 | [AI 辅助编程章节](../AI辅助编程/AI辅助编程导论.md) |
+| AI 辅助编程 | [AI 辅助编程章节](AI辅助编程/AI辅助编程导论.md) |
 
 **实践建议**：完成 CS61C 的 RISC-V 实验，做 MIT 6.S081 的 xv6 实验。开始在实际项目中使用 Claude Code 或 Cursor。
 
@@ -63,7 +63,7 @@
 | 计算机网络 | [Stanford CS144](https://cs144.github.io/) |
 | 数据库系统 | [CMU 15-445](https://15445.courses.cs.cmu.edu/) |
 | 深度学习 | [吴恩达 Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) |
-| 提示工程 | [提示工程章节](../提示工程/Prompt Engineering.md) |
+| 提示工程 | [提示工程章节](提示工程/Prompt Engineering.md) |
 
 **实践建议**：实现一个简单的数据库 B+ 树索引，用深度学习框架（PyTorch）完成图像分类项目。
 
@@ -82,8 +82,8 @@
 |------|----------|
 | 分布式系统 | [MIT 6.824](https://pdos.csail.mit.edu/6.824/) |
 | 强化学习 | [吴恩达 RL Specialization](https://www.coursera.org/specializations/reinforcement-learning) 或 [David Silver RL Course](https://www.davidsilver.uk/teaching/) |
-| RAG 系统 | [RAG 章节](../RAG与知识库/RAG系统构建实战.md) |
-| Agent 开发 | [Agent 章节](../AI Agent与工作流/Agent开发实战.md) |
+| RAG 系统 | [RAG 章节](RAG与知识库/RAG系统构建实战.md) |
+| Agent 开发 | [Agent 章节](AI Agent与工作流/Agent开发实战.md) |
 
 **实践建议**：完成一个完整的 AI 项目（如 RAG 知识库问答系统、多智能体协作系统）。考研同学开始准备 408。
 
@@ -91,8 +91,8 @@
 
 | 内容 | 推荐资源 |
 |------|----------|
-| LLM 应用开发 | [AI 工程化章节](../AI工程化与部署/LLM应用开发工程化.md) |
-| AI 安全 | [AI 安全章节](../AI安全与对齐/AI安全与对齐.md) |
+| LLM 应用开发 | [AI 工程化章节](AI工程化与部署/LLM应用开发工程化.md) |
+| AI 安全 | [AI 安全章节](AI安全与对齐/AI安全与对齐.md) |
 | 编译原理（选修）| [Stanford CS143](https://web.stanford.edu/class/cs143/) 或 [Crafting Interpreters](https://craftinginterpreters.com/) |
 
 **实践建议**：准备作品集（GitHub 仓库 + 项目演示）。考研同学全力冲刺。就业同学开始刷题和准备面试。
