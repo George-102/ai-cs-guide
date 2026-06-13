@@ -1,0 +1,41 @@
+{
+  "changes_this_session": [],
+  "cwd": "C:\\Users\\Chris\\Documents\\Code\\ai-cs-guide",
+  "duration_minutes": 0,
+  "ended_at": "2026-06-01T07:40:06Z",
+  "event_seq": 0,
+  "fork_count": 0,
+  "git": {
+    "branch": "main",
+    "last_commit": "c12b02a",
+    "uncommitted_changes": 0
+  },
+  "harness_mem": {
+    "healthy": true,
+    "last_checked": "2026-06-01T07:39:55Z",
+    "last_error": ""
+  },
+  "last_event_id": "",
+  "memory_logged": true,
+  "orchestration": {
+    "max_state_retries": 3,
+    "retry_backoff_seconds": 10
+  },
+  "parent_session_id": null,
+  "plans": {
+    "completed_tasks": 0,
+    "exists": false,
+    "last_modified": 0,
+    "pending_tasks": 0,
+    "todo_tasks": 0,
+    "wip_tasks": 0
+  },
+  "project_name": "ai-cs-guide",
+  "prompt_seq": 0,
+  "resume_token": "resume-1780299595737153700",
+  "session_id": "session-1780299595737153700",
+  "started_at": "2026-06-01T07:39:55Z",
+  "state": "stopped",
+  "state_version": 1,
+  "updated_at": "2026-06-01T07:39:55Z"
+}

@@ -1,0 +1,1 @@
+{"data":{"command":"rtk git status --short"},"id":"event-000001","state":"initialized","ts":"2026-06-13T06:17:58Z","type":"tool.bash"}

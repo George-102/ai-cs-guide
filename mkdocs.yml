@@ -75,11 +75,32 @@ plugins:
           nav_translations:
             前言: Foreword
             如何使用这本指南: How to Use This Guide
+            一份仅供参考的学习规划: A learning plan for reference only
             工具和方法: Tools and Methods
-            AI基础与大模型: Foundation Models
-            提示工程: Prompt Engineering
+            数学基础: Math Foundation
+            编程语言: Programming Languages
+            数据结构与算法: Data Structures and Algorithms
+            计算机体系结构: Computer Architecture
+            操作系统: Operating Systems
+            计算机网络: Computer Networks
+            数据库系统: Database Systems
+            编译原理: Compiler Theory
+            软件工程: Software Engineering
+            分布式系统: Distributed Systems
+            计算机图形学: Computer Graphics
+            机器学习: Machine Learning
+            深度学习: Deep Learning
+            强化学习: Reinforcement Learning
             提示工程指南: Prompt Engineering Guide
+            提示工程: Prompt Engineering
+            Context Engineering: Context Engineering Guide
+            Harness Engineering: Harness Engineering Guide
             AI辅助编程: AI Coding
+            AI基础与大模型: Foundation Models
+            RAG与知识库: RAG & Knowledge Base
+            AI Agent与工作流: AI Agents & Workflow
+            AI工程化与部署: AI Engineering & Deployment
+            AI安全与对齐: AI Safety & Alignment
             Python官方教程: Python official documentation
             科学上网: GFW
             Git: Git
@@ -93,7 +114,10 @@ plugins:
             Obsidian: Obsidian
             Python项目管理: Python Project Management
             工作流: Workflow
-
+            工具箱: Toolbox
+            AI辅助编程导论: AI Coding Introduction
+            测试驱动开发: Test-Driven Development
+            Claude Code指南: Claude Code Guide
 
 
   - search:
@@ -112,6 +136,8 @@ extra:
 
 nav:
   - 前言: "index.md"
+  - 如何使用这本指南: "使用指南.md"
+  - 一份仅供参考的学习规划: "AI-CS学习规划.md"
   - 工具和方法:
       - Scoop: "工具和方法/scoop.md"
       - 科学上网: "工具和方法/魔法.md"
@@ -127,7 +153,111 @@ nav:
       - Obsidian: "工具和方法/Obsidian.md"
       - Python项目管理: "工具和方法/Python项目管理.md"
       - 工作流: "工具和方法/工作流.md"
-  - Python:
-      - Python官方教程: "Python/Python官方文档.md"
-  - 提示工程:
-      - 提示工程指南: "提示工程/Prompt Engineering.md"
+      - 工具箱: "工具和方法/工具箱.md"
+  - 数学基础:
+      - 概述: "数学基础/index.md"
+      - 3Blue1Brown: "数学基础/3Blue1Brown.md"
+      - MIT 微积分: "数学基础/MIT-Calculus.md"
+      - MIT 线性代数: "数学基础/MIT-Linear-Algebra.md"
+      - MIT 离散数学: "数学基础/MIT-Discrete-Math.md"
+      - MIT 概率论: "数学基础/MIT-Probability.md"
+      - Khan Academy: "数学基础/Khan-Academy.md"
+      - Paul's Notes: "数学基础/Pauls-Online-Math.md"
+      - 机器学习数学: "数学基础/math-for-ml.md"
+  - 编程语言:
+      - 概述: "编程语言/index.md"
+      - Python 官方文档: "编程语言/Python-Official.md"
+      - Rust Book: "编程语言/Rust-Book.md"
+      - Go Tour: "编程语言/Go-Tour.md"
+      - UW 编程语言: "编程语言/UW-Programming-Languages.md"
+  - 数据结构与算法:
+      - 概述: "数据结构与算法/index.md"
+      - Berkeley CS61B: "数据结构与算法/CS61B.md"
+      - MIT 6.006: "数据结构与算法/MIT-6.006.md"
+      - Princeton Algorithms: "数据结构与算法/Princeton-Algorithms.md"
+      - VisuAlgo: "数据结构与算法/VisuAlgo.md"
+  - 计算机体系结构:
+      - 概述: "计算机体系结构/index.md"
+      - Nand2Tetris: "计算机体系结构/Nand2Tetris.md"
+      - CS:APP: "计算机体系结构/CS-APP.md"
+      - Berkeley CS61C: "计算机体系结构/CS61C.md"
+      - 量化研究方法: "计算机体系结构/Hennessy-Patterson.md"
+  - 操作系统:
+      - 概述: "操作系统/index.md"
+      - OSTEP: "操作系统/OSTEP.md"
+      - xv6: "操作系统/xv6.md"
+      - MIT 6.S081: "操作系统/MIT-6.S081.md"
+      - Berkeley CS162: "操作系统/Berkeley-CS162.md"
+  - 计算机网络:
+      - 概述: "计算机网络/index.md"
+      - 自顶向下方法: "计算机网络/Kurose-Ross.md"
+      - 中科大郑烇: "计算机网络/USTC-Computer-Networks.md"
+      - Stanford CS144: "计算机网络/Stanford-CS144.md"
+  - 数据库系统:
+      - 概述: "数据库系统/index.md"
+      - CMU 15-445: "数据库系统/CMU-15-445.md"
+      - Berkeley CS186: "数据库系统/Berkeley-CS186.md"
+      - DDIA: "数据库系统/DDIA.md"
+  - 编译原理:
+      - 概述: "编译原理/index.md"
+      - Crafting Interpreters: "编译原理/Crafting-Interpreters.md"
+      - Stanford CS143: "编译原理/Stanford-CS143.md"
+      - Engineering a Compiler: "编译原理/Engineering-a-Compiler.md"
+      - LLVM: "编译原理/LLVM.md"
+  - 软件工程:
+      - 概述: "软件工程/index.md"
+      - MIT 6.031: "软件工程/MIT-6.031.md"
+      - Berkeley CS169: "软件工程/Berkeley-CS169.md"
+      - CMU 17-313: "软件工程/CMU-17-313.md"
+  - 分布式系统:
+      - 概述: "分布式系统/index.md"
+      - Google 三驾马车: "分布式系统/Google-Papers.md"
+      - DDIA 分布式: "分布式系统/DDIA-Distributed.md"
+      - MIT 6.824: "分布式系统/MIT-6.824.md"
+  - 计算机图形学:
+      - 概述: "计算机图形学/index.md"
+      - LearnOpenGL: "计算机图形学/LearnOpenGL.md"
+      - Ray Tracing: "计算机图形学/Ray-Tracing-in-One-Weekend.md"
+      - Berkeley CS184: "计算机图形学/Berkeley-CS184.md"
+      - PBRT: "计算机图形学/PBRT.md"
+  - 机器学习:
+      - 概述: "机器学习/index.md"
+      - 吴恩达 ML: "机器学习/Andrew-Ng-ML.md"
+      - 李宏毅 ML: "机器学习/Hung-Yi-Lee-ML.md"
+      - 西瓜书: "机器学习/Watermelon-Book.md"
+      - PRML: "机器学习/PRML.md"
+  - 深度学习:
+      - 概述: "深度学习/index.md"
+      - 吴恩达 DL: "深度学习/Andrew-Ng-DL.md"
+      - CS231n: "深度学习/CS231n.md"
+      - 动手学深度学习: "深度学习/d2l.md"
+      - 花书: "深度学习/Flower-Book.md"
+  - 强化学习:
+      - 概述: "强化学习/强化学习.md"
+      - David Silver RL: "强化学习/David-Silver-RL.md"
+      - Sutton & Barto: "强化学习/Sutton-Barto.md"
+      - Stanford CS234: "强化学习/CS234.md"
+      - Spinning Up: "强化学习/Spinning-Up.md"
+  - 提示工程指南:
+      - 提示工程: "提示工程/Prompt Engineering.md"
+      - Context Engineering: "提示工程/Context Engineering.md"
+      - Harness Engineering: "提示工程/Harness Engineering.md"
+  - AI基础与大模型:
+      - 大模型原理入门: "AI基础与大模型/大模型原理入门.md"
+      - 开源模型生态: "AI基础与大模型/开源模型生态.md"
+      - 多模态基础: "AI基础与大模型/多模态基础.md"
+  - RAG与知识库:
+      - RAG系统构建实战: "RAG与知识库/RAG系统构建实战.md"
+      - 向量数据库实战: "RAG与知识库/向量数据库实战.md"
+  - AI Agent与工作流:
+      - Agent开发实战: "AI Agent与工作流/Agent开发实战.md"
+      - MCP协议与工具集成: "AI Agent与工作流/MCP协议与工具集成.md"
+  - AI工程化与部署:
+      - LLM应用开发工程化: "AI工程化与部署/LLM应用开发工程化.md"
+      - LLM评估与可观测性: "AI工程化与部署/LLM评估与可观测性.md"
+  - AI安全与对齐:
+      - AI安全与对齐: "AI安全与对齐/AI安全与对齐.md"
+  - AI辅助编程:
+      - AI辅助编程导论: "AI辅助编程/AI辅助编程导论.md"
+      - 测试驱动开发: "AI辅助编程/测试驱动开发.md"
+      - Claude Code指南: "AI辅助编程/Claude Code指南.md"
