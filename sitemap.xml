@@ -36,13 +36,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/AI%20Agent%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/MCP%E5%8D%8F%E8%AE%AE%E4%B8%8E%E5%B7%A5%E5%85%B7%E9%9B%86%E6%88%90/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/AI%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B/hello/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/AI%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B/hello/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/AI%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B/hello/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/AI%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%9F%BA%E7%A1%80/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -148,13 +141,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/MIT-6.824/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/Docker/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -251,13 +237,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E8%B5%84%E6%BA%90%E6%A3%80%E7%B4%A2/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E8%B5%84%E6%BA%90%E6%A3%80%E7%B4%A2/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E8%B5%84%E6%BA%90%E6%A3%80%E7%B4%A2/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E9%AD%94%E6%B3%95/</loc>
@@ -358,13 +337,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/xv6/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -456,13 +428,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/DDIA/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -496,13 +461,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/VisuAlgo/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/VisuAlgo/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
@@ -540,13 +498,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/Watermelon-Book/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -580,13 +531,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/d2l/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/d2l/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</loc>
@@ -624,13 +568,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/UW-Programming-Languages/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -664,13 +601,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/Stanford-CS143/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/Stanford-CS143/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</loc>
@@ -708,13 +638,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/Nand2Tetris/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -750,13 +673,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/Ray-Tracing-in-One-Weekend/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -785,13 +701,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/USTC-Computer-Networks/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -818,13 +727,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/MIT-6.031/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/MIT-6.031/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/</loc>
@@ -860,13 +762,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/AI%20Agent%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/MCP%E5%8D%8F%E8%AE%AE%E4%B8%8E%E5%B7%A5%E5%85%B7%E9%9B%86%E6%88%90/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/AI%20Agent%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/MCP%E5%8D%8F%E8%AE%AE%E4%B8%8E%E5%B7%A5%E5%85%B7%E9%9B%86%E6%88%90/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/AI%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B/hello/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/AI%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B/hello/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/AI%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B/hello/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/AI%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%9F%BA%E7%A1%80/</loc>
@@ -974,13 +869,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/MIT-6.824/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/Docker/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -1077,13 +965,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E8%B5%84%E6%BA%90%E6%A3%80%E7%B4%A2/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E8%B5%84%E6%BA%90%E6%A3%80%E7%B4%A2/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E8%B5%84%E6%BA%90%E6%A3%80%E7%B4%A2/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/%E9%AD%94%E6%B3%95/</loc>
@@ -1184,13 +1065,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/xv6/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -1282,13 +1156,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/DDIA/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -1322,13 +1189,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/VisuAlgo/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/VisuAlgo/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
@@ -1366,13 +1226,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/Watermelon-Book/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -1406,13 +1259,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/d2l/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/d2l/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</loc>
@@ -1450,13 +1296,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/UW-Programming-Languages/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -1490,13 +1329,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/Stanford-CS143/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/Stanford-CS143/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</loc>
@@ -1534,13 +1366,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/Nand2Tetris/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -1576,13 +1401,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/Ray-Tracing-in-One-Weekend/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -1611,13 +1429,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/USTC-Computer-Networks/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    </url>
-    <url>
         <loc>https://george-102.github.io/ai-cs-guide/en/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
@@ -1644,12 +1455,5 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/MIT-6.031/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/MIT-6.031/"/>
-    </url>
-    <url>
-        <loc>https://george-102.github.io/ai-cs-guide/en/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/ai-cs-guide/en/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/ai-cs-guide/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
     </url>
 </urlset>
